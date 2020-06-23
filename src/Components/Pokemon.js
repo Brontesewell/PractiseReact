@@ -15,10 +15,11 @@ export default class Pokemon extends Component {
         )
     }
     render() {
+        console.log(this.state.pokemon)
         return (
             <div>
-                <h1>Pokemon</h1>
-                {this.state.pokemon.map(p => <div><h5>{p.name}</h5><a href={p.url} ></a>URL</div>)}
+                <h4>Pokemon API </h4>
+                {this.state.pokemon.map(p => <div><h6>{p.name} - <a href={p.url} >{p.url}</a></h6></div>)}
             </div>
         )
     }
