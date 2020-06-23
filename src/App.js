@@ -4,7 +4,8 @@ import './App.css';
 import IncreaseCounter from './Components/IncreaseCounter';
 import SayHello from './Components/SayHello';
 import ToDoList from './Components/ToDoList';
-import Game from './Components/TicTacToe/Game'
+import Game from './Components/Game'
+import Pokemon from './Components/Pokemon'
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
       <br></br>
       <br></br>
       <Game />
+      <br></br>
+      <br></br>
+      <Pokemon />
     </div>
   );
 }
