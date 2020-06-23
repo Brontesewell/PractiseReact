@@ -4,7 +4,7 @@ import './App.css';
 import IncreaseCounter from './Components/IncreaseCounter';
 import SayHello from './Components/SayHello';
 import ToDoList from './Components/ToDoList';
-import TicTacToe from './Components/TicTacToe'
+import Game from './Components/TicTacToe/Game'
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       <ToDoList />
       <br></br>
       <br></br>
-      <TicTacToe />
+      <Game />
     </div>
   );
 }
